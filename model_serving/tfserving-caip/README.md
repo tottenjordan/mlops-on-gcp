@@ -13,9 +13,9 @@ The code samples utilize the [ResNet101 image classification model](https://tfhu
 [02-deploy-to-aipp.ipynb](02-deploy-to-aipp.ipynb). This notebook walks you through the process of deploying a [TensorFlow SavedModel](https://www.tensorflow.org/guide/saved_model) to AI Platform Prediction using a [TensorFlow Serving container image](https://hub.docker.com/r/tensorflow/serving). The notebook covers:
 * Using AI Platform Prediction (Beta) Management REST API
 * Configuring a TensorFlow Serving model server
-* Testing a deployed model version
+* Testing deployed model versions
 
-[03-perf-testing.ipynb](03-perf-testing.ipynb). This notebook demonstrates how to use [Locust](locust.io), [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) and [Cloud Monitoring](https://cloud.google.com/monitoring) to perform load testing of a model version deployed in AI Platform Prediction. The notebook covers:
+[03-perf-testing.ipynb](03-perf-testing.ipynb). This notebook demonstrates how to use [Locust](locust.io), [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) and [Cloud Monitoring](https://cloud.google.com/monitoring) to perform load testing of model versions deployed in AI Platform Prediction. The notebook covers:
 * Deploying Locust to a [GKE cluster](https://cloud.google.com/kubernetes-engine)
 * Creating custom [Cloud Monitoring](https://cloud.google.com/monitoring) dashboards
 * Preparing and running load tests
