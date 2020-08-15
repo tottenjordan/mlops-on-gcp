@@ -35,7 +35,7 @@ The code samples utilize the [ResNet101 image classification model](https://tfhu
 
 ## Environment setup
 
-The code samples where tested on [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) using the standard TensorFlow 2.2 image. 
+The code samples were tested on [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) using the standard TensorFlow 2.2 image. 
 
 
 
